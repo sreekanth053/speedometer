@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.container {
+  background-color: #07080c;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: italic;
+}
+
+.speedometer {
+  width: 600px;
+  height: 260px;
+  padding: 10px;
+}
+.speed {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 25px;
+}
+.speed-details {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+}
+.accelerate-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: 0px;
+  border-radius: 10px;
+  text-align: center;
+  height: 40px;
+  width: 95px;
+  margin-right: 20px;
+}
+.brake-button {
+  color: #cbd5e1;
+  background-color: transparent;
+  border-radius: 10px;
+  text-align: center;
+  border-width: 2px;
+  border-color: #94a3b8;
+  height: 40px;
+  width: 100px;
+  margin-left: 20px;
+}
